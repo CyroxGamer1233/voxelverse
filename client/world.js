@@ -18,7 +18,7 @@ export function generateWorld(scene,seed=1337,radius=30){
   const group=new THREE.Group(); group.name='VoxelWorld';
   const geo=new THREE.BoxGeometry(1,1,1);
   const mats=new Map();
-  const getMat=id=>mats.get(id)||mats.set(id,new THREE.MeshLambertMaterial({color:BLOCKS[id].color,transparent:id===7||id===8,opacity:id===7?.65:id===8?.45})).get(id);
+  const getMat=id=>mats.get(id)||mats.set(id,new THREE.MeshLambertMaterial({color:BLOCKS[id].color,transparent:id===7||id===8,opacity:id===7 ? 0.65 : id===8 ? 0.45 : 1})).get(id);
   const blocks=new Map();
   const put=(x,y,z,id)=>{blocks.set(`${x},${y},${z}`,id); const m=new THREE.Mesh(geo,getMat(id));m.position.set(x,y,z);m.userData.block={x,y,z,id};group.add(m)};
   for(let x=-radius;x<=radius;x++)for(let z=-radius;z<=radius;z++){

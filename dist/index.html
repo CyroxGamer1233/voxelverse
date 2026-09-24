@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>VOXELVERSE</title>
+  <script type="module" crossorigin src="./assets/index-LYbtbBsj.js"></script>
+</head>
+<body>
+  <div id="loading"><div class="loader-card"><b>VOXELVERSE</b><span id="load-text">Loading world…</span><div class="load-track"><i id="load-bar"></i></div></div></div>
+  <canvas id="game"></canvas>
+  <div id="hud">
+    <div id="topbar"><span id="mode-label">SURVIVAL</span><span id="fps">-- FPS</span><button id="menu-btn">☰</button></div>
+    <div id="crosshair">+</div>
+    <div id="status"></div>
+    <div id="touch-ui"><div id="stick"><span></span></div><div id="touch-actions"><button data-action="jump">▲</button><button data-action="break">⛏</button><button data-action="place">＋</button></div></div>
+    <div id="hotbar"></div>
+    <div id="mobile-hint">Drag to look • joystick to move</div>
+  </div>
+  <div id="menu" class="panel hidden">
+    <h1>VOXELVERSE</h1>
+    <div class="grid">
+      <button data-menu="resume">Resume</button><button data-menu="save">Save World</button>
+      <button data-menu="settings">Settings</button><button data-menu="servers">Server Browser</button>
+      <button data-menu="achievements">Achievements</button><button data-menu="close">Close</button>
+    </div>
+    <pre id="menu-output"></pre>
+  </div>
+</body>
+</html>
