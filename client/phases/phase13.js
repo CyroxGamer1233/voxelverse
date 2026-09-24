@@ -1,0 +1,1 @@
+export const WATER={buoyancy:.8,swimSpeed:3};

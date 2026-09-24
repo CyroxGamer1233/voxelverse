@@ -1,0 +1,1 @@
+export const STRUCTURES=['village','farmhouse','watchtower','ruin','obelisk','crypt','mineshaft','shipwreck','desert temple','jungle shrine','ice igloo'];

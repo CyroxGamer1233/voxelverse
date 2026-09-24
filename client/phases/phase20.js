@@ -1,0 +1,1 @@
+export const ACHIEVEMENTS=['First Steps','Explorer','Builder','Survivor'];

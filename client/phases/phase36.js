@@ -1,0 +1,1 @@
+export const PERFORMANCE_PRESETS={AUTO:{rd:4},LOW:{rd:2},MED:{rd:4},HIGH:{rd:6},ULTRA:{rd:12}};

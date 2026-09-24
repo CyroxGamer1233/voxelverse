@@ -1,0 +1,1 @@
+export const RIFT_RUNNER={checkpoints:true,timer:true};

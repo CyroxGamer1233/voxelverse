@@ -1,0 +1,1 @@
+export const RECIPES=[{out:'Wood',count:4,in:{Log:1}},{out:'Glass',count:1,in:{Sand:1}}];

@@ -1,0 +1,1 @@
+export const COMMANDS=['help','spawn','msg','party','friend'];

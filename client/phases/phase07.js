@@ -1,0 +1,1 @@
+export const HOTBAR_SIZE=9;

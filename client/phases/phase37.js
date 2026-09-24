@@ -1,0 +1,1 @@
+export const OPTIMIZATION={culling:true,lod:true,batching:true,objectPools:true};

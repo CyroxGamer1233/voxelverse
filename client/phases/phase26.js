@@ -1,0 +1,1 @@
+export const SERVER_BROWSER={ping:true,directConnect:true};

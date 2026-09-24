@@ -1,0 +1,1 @@
+export const SETTINGS={accessibility:true,keybinds:true};

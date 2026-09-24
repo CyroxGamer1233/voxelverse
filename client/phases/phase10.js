@@ -1,0 +1,1 @@
+export const TOUCH_ACTIONS=['look','move','jump','break','place'];

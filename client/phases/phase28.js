@@ -1,0 +1,1 @@
+export const MATCHMAKING={countdown:10,maxPlayers:16};

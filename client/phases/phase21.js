@@ -1,0 +1,1 @@
+export const COSMETICS={maxUploadBytes:2_000_000,maxDimension:1024};

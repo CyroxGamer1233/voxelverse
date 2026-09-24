@@ -1,0 +1,1 @@
+export const INTERACTION_RANGE=8;

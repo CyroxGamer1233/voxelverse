@@ -1,0 +1,1 @@
+export const FORTRESS_SIEGE={teams:2,objective:'protect the core'};

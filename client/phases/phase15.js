@@ -1,0 +1,1 @@
+export const COMBAT={reach:3,critMultiplier:1.5};

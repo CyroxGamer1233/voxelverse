@@ -1,0 +1,1 @@
+export const LOBBY={name:'Cyrox Hub',walkable:true};

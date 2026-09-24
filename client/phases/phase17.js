@@ -1,0 +1,1 @@
+export const DIMENSIONS=['Overworld','Emberrealm','Voidreach'];

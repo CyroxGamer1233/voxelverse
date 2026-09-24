@@ -1,0 +1,1 @@
+export const SURVIVAL={maxHealth:20,maxHunger:20,maxArmor:20};

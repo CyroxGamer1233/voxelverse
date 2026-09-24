@@ -1,0 +1,1 @@
+export const ARENA_DUELS={rounds:3};

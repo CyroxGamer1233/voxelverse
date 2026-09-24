@@ -1,0 +1,1 @@
+export const DEPLOYMENT={static:true,node:true};

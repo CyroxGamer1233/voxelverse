@@ -1,0 +1,1 @@
+export const QA={targets:['Android Chrome','Desktop Chrome'],contextRestore:true,workerRetry:1};

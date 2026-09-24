@@ -1,0 +1,1 @@
+export const BIOMES=['Meadow','Woodland','Pinewood','Desert','Savanna','Tundra','Icefield','Swamp','Beach','Ocean','Deep Ocean','Mountain','Highlands','Jungle','Badlands','Mushroom Isle'];

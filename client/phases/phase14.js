@@ -1,0 +1,1 @@
+export const MOB_TYPES=['wanderer','crawler','guardian'];

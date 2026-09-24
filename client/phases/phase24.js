@@ -1,0 +1,1 @@
+export const SECURITY={maxChat:200,rateLimit:true,serverAuthority:true};

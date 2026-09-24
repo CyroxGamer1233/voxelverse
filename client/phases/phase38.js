@@ -1,0 +1,1 @@
+export const POLISH={haptics:true,transitions:true,animations:true};

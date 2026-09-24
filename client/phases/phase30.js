@@ -1,0 +1,1 @@
+export const SKYFALL={teams:4,objective:'last player standing'};
