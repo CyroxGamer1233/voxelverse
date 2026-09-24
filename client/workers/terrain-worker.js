@@ -1,0 +1,1 @@
+self.onmessage=e=>{const {x=0,z=0,seed=1}=e.data;const cols=[];for(let i=0;i<16;i++)for(let k=0;k<16;k++)cols.push(Math.max(2,Math.floor(12+Math.sin((x*16+i+seed)*.03)*4+Math.cos((z*16+k)*.03)*4)));self.postMessage({x,z,columns:cols})};
